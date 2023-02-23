@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom/client';
 
 import './global.css';
 
-import { Tweet } from './components/tweet';
+import { Tweet } from './components/Tweet';
 import { Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
-import { Separator } from './components/separator';
+import { Separator } from './components/Separator';
 
 const tweets = [
   'meu primeiro tweet',
-  'eu sou viadinho gente',
-  'meu nome é Luiz Carlos e eu dou a bunda erriessi'
+  'Olá mundo',
+  'Boa tarde'
 ]
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
