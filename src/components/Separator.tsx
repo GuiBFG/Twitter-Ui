@@ -1,7 +1,5 @@
-import './Separator.css'
+import './Separator.css';
 
 export function Separator() {
-  return(
-    <div className='separator' />
-  )
+  return <div className='separator' />;
 }

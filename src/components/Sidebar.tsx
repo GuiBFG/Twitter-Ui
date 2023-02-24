@@ -12,16 +12,17 @@ import {
   User,
   DotsThreeCircle,
 } from 'phosphor-react';
+import { Link } from 'react-router-dom';
 
 export function Sidebar() {
   return (
     <aside className='sidebar'>
       <img className='logo' src={logoTwitter} alt='Logo Twitter' />
       <nav className='main-navigation'>
-        <a href='' className='active'>
+        <Link to='/' className='active'>
           <House weight='fill' />
           Home
-        </a>
+        </Link>
         <a href=''>
           <Hash />
           Explore
